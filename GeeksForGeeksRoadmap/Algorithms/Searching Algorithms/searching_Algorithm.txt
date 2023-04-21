@@ -1,0 +1,12 @@
+What is Searching Algorithm?
+-------------------------------------------------------------------------------------
+Searching Algorithms are design to check for an element or retrieve an elementro from
+any data structure where it is stored.
+-------------------------------------------------------------------------------------
+
+There are two categories of Searching Algorithms:
+---------------------------------------------------------
+1- Sequential search: In this category we find "Linear Search", in this, we traverse the array
+or list sequentially and every element is checked
+2- Interval search: These algorithms are specifically design for sorted data structures. Here
+we find the binary search
