@@ -1,0 +1,13 @@
+body {
+    font-family: Roboto;
+    margin: 140px 80px 60px 60px;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 25px;
+    color: rgb(105, 105, 105);
+}

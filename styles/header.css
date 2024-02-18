@@ -1,0 +1,77 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 40px;
+    position: fixed;
+    top: 0;
+    left: 40px;
+    right: 100px;
+    height: 90px;
+    background-color: white;
+
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 0.5;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    /* margin-left: 40px; */
+}
+
+.logo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 40px;
+}
+
+.sign-in, .sign-up {
+    border-radius: 20px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(237, 237, 237);
+    color: inherit; /* Ensures text color is consistent */
+}
+
+.sign-in:active,
+.sign-up:active {
+    opacity: 0.5;
+}
+
+.sign-up {
+    background-color: black;
+    color: white;
+}
+
+
+
+.auth-buttons {
+    display: flex;
+    align-items: center;
+    column-gap: 40px;
+}
+
+ul,li,a  {
+    list-style: none;
+    text-decoration: none;
+}
+
+*,body {
+    color: black;
+    font-family: Roboto;
+}

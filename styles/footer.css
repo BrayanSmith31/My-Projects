@@ -1,0 +1,37 @@
+
+.footer {
+    background-color: rgb(31, 31, 31);
+}
+
+.footer-container {
+    display: flex;
+    column-gap: 200px;
+    margin-left: 50px;
+    padding: 0;
+    height: 300px;
+}
+
+.footer h3{
+    color: rgb(213, 213, 213);
+    font-size: 27  px;
+    font-weight: 500;
+}
+
+.footer li, .footer a {
+    color: rgb(124, 124, 124);
+    line-height: 50px;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.social-media-icon {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: #757983;
+    border-style: solid;
+    display:inline-block;
+    margin-right: 20px;
+}
