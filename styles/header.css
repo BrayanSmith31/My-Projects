@@ -1,27 +1,30 @@
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    column-gap: 40px;
+    column-gap: 100px;
     position: fixed;
     top: 0;
-    left: 40px;
-    right: 100px;
+    left: 0px;
+    right: 0px;
     height: 90px;
-    background-color: white;
-
+    background-color: rgb(25, 25, 25);
+    z-index: 100;
+    padding: 0px 100px 0px 50px
 }
 
 .main-nav {
     display: flex;
     justify-content: space-between;
     flex: 1;
+    /* column-gap: 100px; */
 }
 
 .nav-links {
     display: flex;
     justify-content: space-evenly;
-    flex: 0.5;
+    column-gap: 60px;
 }
 
 .logo {
@@ -38,14 +41,15 @@
 }
 
 .sign-in, .sign-up {
-    border-radius: 20px;
-    width: 120px;
-    height: 30px;
+    border-radius: 40px;
+    width: 150px;
+    height: 50px;
     border: none;
-    font-weight: bold;
+    font-weight: 500;
     cursor: pointer;
     background-color: rgb(237, 237, 237);
     color: inherit; /* Ensures text color is consistent */
+    font-size: 18px;
 }
 
 .sign-in:active,
@@ -58,7 +62,9 @@
     color: white;
 }
 
-
+.nav-links a {
+    color: white;
+}
 
 .auth-buttons {
     display: flex;
@@ -74,4 +80,14 @@ ul,li,a  {
 *,body {
     color: black;
     font-family: Roboto;
+}
+
+.logo-container p {
+    font-size: 30px;
+    color: rgb(68, 242, 120);
+    font-weight: bold;
+}
+
+li {
+    font-size: 18px;
 }
